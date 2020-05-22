@@ -91,13 +91,14 @@ header ul li a{
      color: #FFFFFF;
      text-transform: uppercase;
      text-decoration: none;
-     margin: 5px 40px;
+     margin: 0 40px;
      
 }
 
 @media only screen and (max-width: 480px) {
 	header {
 		padding : 5px 0;
+		flex-direction : column;
 	}
 }
 	
