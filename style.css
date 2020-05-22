@@ -76,7 +76,7 @@ canvas {
 @media only screen and (max-width: 480px) {
 	header ul li a{
 		
-		margin: 0 2px;
+		margin: 0 0;
 	}
 }
 
