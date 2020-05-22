@@ -96,13 +96,6 @@ header ul li a{
      margin: 0 40px;
      
 }
-@media only screen and (max-width: 600px) {
-	header ul li a{
-		margin: 0 1px;
-	}
-}
-	
-
 
 .fixed{
    position: fixed;
@@ -163,7 +156,12 @@ section{
      letter-spacing: 2px;
      border-radius: 2px;
  }
-
+@media only screen and (max-width: 600px) {
+	.home h1{
+		font-size: 38px;
+	}
+}
+	
 
 .section-title{
      text-align: center;
