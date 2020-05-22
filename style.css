@@ -86,6 +86,13 @@ header{
         vertical-align: middle;  
         
 }
+@media only screen and (max-width: 480px) {
+	header ul li a{
+		margin: 0 5px;
+	}
+}
+	
+
 
 header ul li a{
      color: #FFFFFF;
@@ -95,14 +102,6 @@ header ul li a{
      
 }
 
-@media only screen and (max-width: 480px) {
-	
-	header ul li a{
-		
-		margin: 0 2px;
-	}
-}
-	
 
 
 .fixed{
