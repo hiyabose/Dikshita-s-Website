@@ -73,7 +73,12 @@ canvas {
   height:100vh;
 }
 
-
+@media only screen and (max-width: 480px) {
+	header ul li a{
+		
+		margin: 0 5px;
+	}
+}
 
 header{
         position: absolute;
@@ -95,12 +100,7 @@ header ul li a{
      
 }
 
-@media only screen and (max-width: 480px) {
-	header ul li a{
-		
-		margin: 0 5px;
-	}
-}
+
 	
 
 
