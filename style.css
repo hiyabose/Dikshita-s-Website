@@ -86,7 +86,7 @@ header{
         vertical-align: middle;  
         
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 430px) {
 	header ul li a{
 		margin: 0 5px;
 	}
