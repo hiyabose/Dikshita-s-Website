@@ -131,7 +131,7 @@ body{
 
 
 .home h1{
-  font-size: 38px;
+   font-size: 38px;
    text-transform: uppercase;
    text-shadow: 0 15px 20px #000000b0;
    margin-bottom: 0;
@@ -331,12 +331,12 @@ text-tranform: uppercase;
 
 
 .connect{
-width: 80%;
+  width: 80%;
   margin: 0px auto;
   padding: 50px 0;
   text-align: center;
   z-index: 99;
- background: transparent
+  background: transparent
 
 }
 
@@ -347,11 +347,11 @@ width: 80%;
  
 }
 .connect .col{
- width: 18%;
+   width: 18%;
    text-align: center;
-  background: transparent;
- display: inline-block;
-    margin: 5px;
+   background: transparent;
+   display: inline-block;
+   margin: 5px;
   
 }
 
