@@ -82,7 +82,7 @@ header ul li a{
      color: #FFFFFF;
      text-transform: uppercase;
      text-decoration: none;
-     margin: 0px;
+     margin: 0 3px;
      font-size : 14px
      
 }
@@ -110,7 +110,6 @@ body{
  padding-top: 75px;
 }
 
-
 .home {
      color: #ffffff;
      padding: 0;
@@ -121,11 +120,12 @@ body{
      background: url(n.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     background-position: center;
+     background-position: justify;
      background-color: #34495e;
      background-attachment: fixed;
      z-index: 9;
 }
+
 
 .home h1{
   font-size: 38px;
@@ -276,22 +276,82 @@ width : 40%;
 .gallery{
     width: 60%;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 10px;
     z-index: 99;
 }
 
 .gallery-info{
    display: flex;
    flex-wrap: wrap;
-   margin: 50px 0;
+   margin: 50px 10px;
 }
 .gallery-info .col{
 float: left;
-width: 305;
-margin-top: 3%;
-margin-left :1%;
+width: 305px;
+margin: 3%;
 }
 .gallery-info .col img{
-max-width: 900%;
+width: 100%;
 }
 
+.contact{
+width: 60%;
+margin: 0 auto;
+padding: 50px 0;
+}
+.contact-info .textField{
+width: 100%;
+height: 50px;
+border: 1px solid #fff;
+box-sizing: border-box;
+background-color: transparent;
+padding: 15px 15px;
+margin-bottom: 'PT Sans Narrow', sans-serif;
+color: #fff;
+font-sixe: 16px;
+}
+
+.contact-info .messageField{
+height: 200px;
+}
+.contact-info .submitButton{
+background-color: #fff;
+color: #000;
+height: 50px;
+font-weight: 600;
+font-size: 16px;
+cursor: pointer;
+text-tranform: uppercase;
+}
+
+
+
+.connect{
+width: 60%;
+  margin: 80px auto;
+  padding: 80px auto;
+  text-align: center;
+  z-index: 99;
+ background: transparent
+
+}
+
+.connect .connect-info{
+     display: flex;
+     flex-direction : row;
+     margin: 50px 0px;
+ 
+}
+.connect .col{
+ width: 22%;
+   text-align: center;
+  background: transparent;
+ display: inline-block;
+    margin: 5px 10px;
+}
+
+.connect .col img{
+      max-width: 28px;
+      background: transparent;
+     
+}
